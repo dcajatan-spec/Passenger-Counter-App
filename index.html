@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger counter app</title>
+    <link rel="stylesheet" href="./style/git.css">
+    <link rel="stylesheet" href="./fontawesome-free-7.2.0-web/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <h3 style="color: green; font-weight: bolder; font-size: 40px;">Nyx<span style="color: white; font-weight: bolder; font-size: 40px;">Kernel</span></h3>
+    </div>
+    <div>
+        <h2 id="first-head">
+            PASSENGER COUNTER APP
+        </h2>
+    </div>
+    <div>
+    <h1 id="count-el">0</h1>
+    <button onclick="increment()" id="btn-add">INCREMENT</button>
+    </div>
+    <div>
+        <button onclick="decrement()" id="btn-sub">DECREMENT</button>
+        </div>
+        <div>
+            <button onclick="save()" id="btn-save">SAVE</button>
+            </div>
+            <p id="save-el" style="font-weight: bolder; color: silver;">PREVIOUS: </p>
+            <script src="./javascript/git.js"></script>
+</body>
+</html>
